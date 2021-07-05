@@ -1,0 +1,6 @@
+i - öppnar inventoryt
+shift+1, 2, 3 - byter mellan ammo
+1, 2, 3 - byter mellan vapen(shotgun funkar nog inte just nu(3))
+e - tar på sig vapen när man är i equipment menyn
+
+w, a ,s ,d - rör sig runt

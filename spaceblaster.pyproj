@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{12bc8aa4-a013-46e1-a9a8-e17508860e60}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>SpaceBlaster.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="assets\fonts\__init__.py" />
+    <Compile Include="scripts\ammo.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="scripts\attackBoost.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="scripts\button.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="scripts\collision.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="scripts\creature.py" />
+    <Compile Include="scripts\data\animated_coin.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="scripts\data\coin_drop.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="scripts\data\constant.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="scripts\data\game_sound.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="scripts\data\setup.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="scripts\data\states\home.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="scripts\data\states\level1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="scripts\data\states\load_screen.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="scripts\data\states\main_menu.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="scripts\data\states\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="scripts\data\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="scripts\drone.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="scripts\enemy.py" />
+    <Compile Include="scripts\Explorer.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="scripts\Heart.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="scripts\info.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="scripts\inventory.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="scripts\item.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="scripts\level.py" />
+    <Compile Include="scripts\data\main.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="scripts\score.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="scripts\shield.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="scripts\slot.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="scripts\text.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="scripts\obstacle.py" />
+    <Compile Include="scripts\player.py" />
+    <Compile Include="scripts\powerup.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="scripts\program.py" />
+    <Compile Include="scripts\projectile.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="scripts\data\tools.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="scripts\weapon.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="scripts\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SpaceBlaster.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\Database\armors.xlsx" />
+    <Content Include="assets\Database\weapons.xlsx" />
+    <Content Include="assets\Database\items.xlsx" />
+    <Content Include="assets\sprites\106_1.png" />
+    <Content Include="assets\sprites\ammo_icon.png" />
+    <Content Include="assets\sprites\apple.png" />
+    <Content Include="assets\sprites\backpack.png" />
+    <Content Include="assets\fonts\Fixedsys500c.ttf" />
+    <Content Include="assets\highscore.txt" />
+    <Content Include="assets\saves\savegame.txt" />
+    <Content Include="assets\sounds\coin_pickup.wav" />
+    <Content Include="assets\sounds\laser_sound_effect.wav" />
+    <Content Include="assets\sprites\background.png" />
+    <Content Include="assets\sprites\blue-slot.png" />
+    <Content Include="assets\sprites\blue-wing.png" />
+    <Content Include="assets\sprites\BlueLaser.png" />
+    <Content Include="assets\sprites\btn-left-pressed.png" />
+    <Content Include="assets\sprites\btn-left.png" />
+    <Content Include="assets\sprites\btn-right-pressed.png" />
+    <Content Include="assets\sprites\btn-right.png" />
+    <Content Include="assets\sprites\bulletss.png" />
+    <Content Include="assets\sprites\characters.gif" />
+    <Content Include="assets\sprites\Coin.png" />
+    <Content Include="assets\sprites\coin_gold.png" />
+    <Content Include="assets\sprites\coppercannon.png" />
+    <Content Include="assets\sprites\copper_coin.png" />
+    <Content Include="assets\sprites\Enemy_Viper.png" />
+    <Content Include="assets\sprites\equipment-tab.png" />
+    <Content Include="assets\sprites\Gem_17.png" />
+    <Content Include="assets\sprites\Gem_Amethyst_01.png" />
+    <Content Include="assets\sprites\green-slot.png" />
+    <Content Include="assets\sprites\Lasercannon-legendary.png" />
+    <Content Include="assets\sprites\Lasercannon.png" />
+    <Content Include="assets\sprites\orange-slot.png" />
+    <Content Include="assets\sprites\Plate20.png" />
+    <Content Include="assets\sprites\red-slot.png" />
+    <Content Include="assets\sprites\Rifle_24.png" />
+    <Content Include="assets\sprites\Rifle_26.png" />
+    <Content Include="assets\sprites\Shop-tab.png" />
+    <Content Include="assets\sprites\slot_green.png" />
+    <Content Include="assets\sprites\items_spritesheet_1.png" />
+    <Content Include="assets\sprites\slot.png" />
+    <Content Include="assets\sprites\Explorer.png" />
+    <Content Include="assets\sprites\goal_ui.png" />
+    <Content Include="assets\sprites\GreenLaserbullet-sheet.png" />
+    <Content Include="assets\sprites\healthbar.png" />
+    <Content Include="assets\sprites\Heart-sheet.png" />
+    <Content Include="assets\sprites\hit.png" />
+    <Content Include="assets\sprites\item_objects.png" />
+    <Content Include="assets\sprites\numbers_colors.png" />
+    <Content Include="assets\sprites\PlayerDash.png" />
+    <Content Include="assets\saves\about_folder.txt" />
+    <Content Include="assets\saves\Saves.txt" />
+    <Content Include="assets\sounds\about_folder.txt" />
+    <Content Include="assets\sprites\about_folder.txt" />
+    <Content Include="assets\sprites\AtkBoost.png" />
+    <Content Include="assets\sprites\Asteroid.png" />
+    <Content Include="assets\sprites\BossRedLaser.png" />
+    <Content Include="assets\sprites\GreenLaserbullet.png" />
+    <Content Include="assets\sprites\Heart.png" />
+    <Content Include="assets\sprites\RedLaser.png" />
+    <Content Include="assets\sprites\Shield.png" />
+    <Content Include="assets\sprites\silver_coin.png" />
+    <Content Include="assets\sprites\slot_clicked.png" />
+    <Content Include="assets\sprites\slot_highlighted.png" />
+    <Content Include="assets\sprites\spaceshipcool.png" />
+    <Content Include="assets\sprites\text_images.png" />
+    <Content Include="assets\sprites\title_screen.png" />
+    <Content Include="assets\sprites\ui-options-cursor.png" />
+    <Content Include="assets\sprites\ui-options.png" />
+    <Content Include="assets\sprites\UI.png" />
+    <Content Include="scripts\about_folder.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="assets" />
+    <Folder Include="assets\fonts\" />
+    <Folder Include="assets\Database\" />
+    <Folder Include="assets\saves" />
+    <Folder Include="assets\sounds" />
+    <Folder Include="assets\sprites" />
+    <Folder Include="scripts" />
+    <Folder Include="scripts\data\" />
+    <Folder Include="scripts\data\states\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
